@@ -1,5 +1,11 @@
 from random import choice
 import requests
+from pyfiglet import figlet_format
+from termcolor import colored
+
+header = figlet_format("DAD JOKE 3000!")
+header = colored(header, color="magenta")
+print(header)
 
 term = input("What would you like to search for? ")
 url = "https://icanhazdadjoke.com/search"
