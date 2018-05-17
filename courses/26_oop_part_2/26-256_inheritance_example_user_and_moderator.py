@@ -56,8 +56,6 @@ class Moderator(User):
 
 
 u1 = User("Tom", "Garcia", 35)
-u2 = User("Tom", "Garcia", 35)
-u3 = User("Tom", "Garcia", 35)
 jasmine = Moderator("Jasmine", "Oconnor", 61, "Piano")
 jasmine2 = Moderator("Jasmine", "Oconnor", 61, "Piano")
 print(User.display_active_users())
