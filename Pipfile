@@ -9,6 +9,7 @@ name = "pypi"
 requests = "*"
 pyfiglet = "*"
 termcolor = "*"
+jsonpickle = "*"
 
 [requires]
 python_version = "3.5"
