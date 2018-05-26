@@ -7,10 +7,6 @@ class Cat:
 
 c = Cat("Charles", "Tabby")
 
-# with open('cat.json', 'w') as file:
-#     frozen = jsonpickle.encode(c)
-#     file.write(frozen)
-#     print(frozen)
 
 # opening a file
 with open('cat.json', 'r') as file:
