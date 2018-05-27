@@ -23,6 +23,7 @@ html = """
 """
 
 soup = BeautifulSoup(html, "html.parser")
+# find()
 # print(type(soup))
 # print(soup.body)
 # print(soup.body.div)
@@ -31,4 +32,9 @@ soup = BeautifulSoup(html, "html.parser")
 # print(soup.find_all('li'))
 # print(soup.find(id="first"))
 # print(soup.find_all(class_="special"))
-print(soup.find_all(attrs={"data-example": "yes"}))
+# print(soup.find_all(attrs={"data-example": "yes"}))
+
+# CSS selector
+# print(soup.select("#first"))
+# print(soup.select('.special'))
+# print(soup.select('[data-example]'))
