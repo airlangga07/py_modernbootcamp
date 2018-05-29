@@ -11,6 +11,7 @@ pyfiglet = "*"
 termcolor = "*"
 jsonpickle = "*"
 "bs4" = "*"
+scrapy = "*"
 
 [requires]
 python_version = "3.5"
